@@ -1,0 +1,436 @@
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 5px 10px 0px rgba(193, 192, 192, 0.5);
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    padding: 120px 200px 64px 200px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid rgba(212, 210, 210, 0.522);
+    border-bottom: 10px solid rgb(121,83,195);
+}
+
+.ftr {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.e-mail {
+    font-size: 32px;
+}
+
+.description-mail {
+    font-family: Kanit;
+    font-weight: 300;
+    font-size: 12px;
+    color: gray;
+}
+
+.LinksAndIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+}
+
+.links {
+    box-sizing: border-box;
+    width: 900px;
+    font-family: Kanit;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    width: 90px;
+    height: 24px;
+    gap: 10px;
+}
+
+.l1 {
+    color: black;
+}
+
+.VKandTLogo {
+    height: 24px;
+    width: 24px;
+}
+
+.line {
+    width: 990px;
+    height: 0;
+    border-bottom: 1px solid rgba(212, 210, 210, 0.522);
+}
+
+.offer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+}
+
+.lightdescr {
+    font-family: Kanit;
+    font-weight: 300;
+    font-size: 12px;
+    color: gray;
+}
+
+.ofr {
+    box-sizing: border-box;
+    display: flex;
+    width: 850px;
+    flex-direction: column;
+}
+
+.made {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 140px;
+    height: 37px;
+}
+
+.bttn {
+    box-sizing: border-box;
+    padding: 1px;
+    border: 2px solid rgb(121,83,195);
+    border-radius: 8px;
+    height: 40px;
+    background-color: white;
+    float: right;
+    margin: 15px;
+    width: 60px;
+}
+
+.bttn2 {
+    box-sizing: border-box;
+    padding: 1px;
+    border: 2px solid rgb(121,83,195);
+    border-radius: 8px;
+    height: 30px;
+    background-color: white;
+    float: left;
+    width: 100px;
+}
+
+.create {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 32px;
+    gap: 15px;
+}
+
+.phrase1 {
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 32px;
+    color: black;
+}
+
+.phrase2 {
+    font-family: Kanit;
+    font-weight: 300;
+    font-size: 16px;
+    color: gray;
+}
+
+.progress_bar {
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid rgba(212, 210, 210, 0.522);
+}
+
+p {
+    color: rgb(121,83,195);
+    margin: 0;
+    font-family: Kanit;
+    font-size: 15px;
+}
+
+.icon {
+    float: left;
+    height: 70px;
+    width: 100px;
+    font-size: 14px;
+    margin: 0 0 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    margin: 5% 10% 0 10%;
+}
+
+.box_link {
+    height: 30px;
+    width: 100%;
+}
+
+.box_creating {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 100%;
+    margin: 15px 0 0 0;
+    gap: 20px;
+}
+
+.CreatingProfile {
+    margin: 4% 10% 0 10%;
+    flex-direction: row;
+    gap: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Editing {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.box_profile {
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 2px dashed rgb(205,189,219);
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    gap: 8px;
+}
+
+.Avatar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-family: Kanit;
+    font-size: 14px;
+    color: black;
+}
+
+.A1 {
+    font-size: 18px;
+}
+
+.input-file {
+    position: relative;
+    display: inline-block;
+}
+.input-file span {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: middle;
+    color: rgb(255 255 255);
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(121,83,195);
+    line-height: 22px;
+    height: 40px;
+    width: 150px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+}
+.input-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.description {
+    font-family: Kanit;
+    font-size: 12px;
+    color: gray;
+}
+
+.box_profile1 {
+    display: flex;
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    margin: 5px 0 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.Input-box {
+    position: relative;
+}
+
+.Input-box input,
+.Input-box input:focus,
+.Input-box input::placeholder {
+    font-family: Kanit;
+    font-size: 14px;
+    border: none;
+    border-radius: 11px;
+    height: 30px;
+    width: 380px;
+    padding: 10px;
+    background-color: rgba(223, 223, 223, 0.567);
+    outline: none;
+    padding-left: 15px;
+}
+
+
+.Input-box label {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 0 5px;
+    font-family: Kanit;
+    font-size: 12px;
+    color: gray;
+}
+
+.radio-input {
+    
+}
+
+.ri {
+    font-family: Kanit;
+    font-size: 14px;
+    color: black;
+}
+
+.FirstView{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box_profile2 {
+    justify-content: flex-end;
+    height: 300px;
+    width: 697px;
+    background-color: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(227, 221, 221, 0.259);
+    box-shadow: 0 5px 10px rgba(193, 192, 192, 0.5);
+    border-radius: 32px;
+}
+
+.profile_beta {
+    box-sizing:border-box;
+    border-radius: 32px;
+    width: 697px;
+    height: 300px;
+}
+
+.lookonfooterlinks {
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+
+h1 {
+    font-family: Kanit;
+}
+
+.output-profile {
+    
+}
+
+.box_profile3 {
+    box-sizing: border-box;
+    border: 1px solid rgba(227, 221, 221, 0.259);
+    border-radius: 16px;
+    box-shadow: 0 3px 10px rgba(193, 192, 192, 0.5);
+    height: 100px;
+    justify-content: flex-end;
+    width: 697px;
+    background-color: none;
+    padding: 0 20px 20px 20px;
+    
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.look_page {
+    margin-left: 30px;
+}
+
+.l_p {
+    color: rgb(27, 27, 27);
+}
+
+.continue {
+    height: 112px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bttn3 {
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 1px;
+    border: 2px solid rgb(121,83,195);
+    border-radius: 8px;
+    height: 30px;
+    background-color: rgb(121,83,195);
+    width: 100px;
+    color: white;
+}
+
+
